@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+        "id": "1",
+        "nombre": "admin1",
+        "apellido": "1111",
+        "telefono": 111111,
+        "correo": "admin@1.com"
+        },
+        {
+        "id": "2",
+        "nombre": "admin2",
+        "apellido": "2222",
+        "telefono": 222222,
+        "correo": "admin@2.com"
+        },
+        {
+            "id": "3",
+            "nombre": "admin3",
+            "apellido": "3333",
+            "telefono": 222222,
+            "correo": "admin@3.com"
+            },
+            {
+                "id": "2",
+                "nombre": "admin2",
+                "apellido": "4444",
+                "telefono": 222222,
+                "correo": "admin@4.com"
+                }
+    ]
+}

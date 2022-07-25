@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout SimuladorV3</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+    <body>
+        <div>
+            <h1 class="center">Hardware.com
+                <br>
+                <br>
+                Tu lugar de confianza para conseguir el Hardware
+            </h1>
+            <br>
+        </div>
+        
+        <form class="color-formulario z-depth-2" id="contact-form">
+                <p2>Finalizar Pedido
+                    <br>
+                    Ingrese sus datos para enviarle la compra:</p2> 
+                    <br>
+                    <br>
+                <input type="text" id="inputNombre" placeholder="nombre">
+                <input type="text" id="inputApellido" placeholder="pin">
+                <input type="email" id="inputEmail" placeholder="Correo electrónico">
+                <br>
+                <br>
+                <p id="prodElegidos"></p>
+                <input type="button" class="btn black white-text" id="submit" value="ENVIAR">
+            </form>
+        <script src="js/checkout.js"></script>
+        <script src="js/stock.js"></script>
+    </body>
+</html>
